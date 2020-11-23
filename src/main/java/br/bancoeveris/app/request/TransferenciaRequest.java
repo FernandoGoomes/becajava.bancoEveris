@@ -4,7 +4,6 @@ public class TransferenciaRequest {
 	
 	private String hashOrigem;
 	private String hashDestino;
-	private String tipo;
 	private Double valor;
 	
 	public String getHashOrigem() {
@@ -18,12 +17,6 @@ public class TransferenciaRequest {
 	}
 	public void setHashDestino(String hashDestino) {
 		this.hashDestino = hashDestino;
-	}
-	public String getTipo() {
-		return tipo;
-	}
-	public void setTipo(String tipo) {
-		this.tipo = tipo;
 	}
 	public Double getValor() {
 		return valor;
